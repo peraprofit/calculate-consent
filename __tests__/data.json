@@ -4,31 +4,39 @@
       "mission": null,
       "goal": null,
       "id": "cizx2i6yvdbxo0130u197andu",
-      "vision": { "id": "cizx2ezn5ar110160k94gp07k" },
+      "vision": {
+        "id": "cizx2ezn5ar110160k94gp07k"
+      },
       "type": "VISION",
-      "value": 78
+      "value": 65
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i6zgdbxw0130oc9purv1",
-      "vision": { "id": "cizx2ezntar130160gyt4loff" },
+      "vision": {
+        "id": "cizx2ezntar130160gyt4loff"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 65
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i706dbyh0130palw5u0o",
-      "vision": { "id": "cizx2ezocar170160xqt8yah4" },
+      "vision": {
+        "id": "cizx2ezocar170160xqt8yah4"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 69
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i70odc280130ti6q4x0l",
-      "vision": { "id": "cizx2ezovar190160gchtfdtz" },
+      "vision": {
+        "id": "cizx2ezovar190160gchtfdtz"
+      },
       "type": "VISION",
       "value": 25
     },
@@ -36,119 +44,149 @@
       "mission": null,
       "goal": null,
       "id": "cizx2i71bdc2e0130i2jvw54p",
-      "vision": { "id": "cizx2ezpdar1b0160sag13b2h" },
+      "vision": {
+        "id": "cizx2ezpdar1b0160sag13b2h"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 58
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i71ydc2n01303ez3p785",
-      "vision": { "id": "cizx2ezpwar1e0160qud2624k" },
+      "vision": {
+        "id": "cizx2ezpwar1e0160qud2624k"
+      },
+      "type": "VISION",
+      "value": 71
+    },
+    {
+      "mission": null,
+      "goal": null,
+      "id": "cizx2i73mdc2v013039jn6bw3",
+      "vision": {
+        "id": "cizx2ezqcar1g01602m49ttx4"
+      },
+      "type": "VISION",
+      "value": 33
+    },
+    {
+      "mission": null,
+      "goal": null,
+      "id": "cizx2i74edc730130iqsugxlx",
+      "vision": {
+        "id": "cizx2ezqrar5i0160qkbz11ej"
+      },
       "type": "VISION",
       "value": 80
     },
     {
       "mission": null,
       "goal": null,
-      "id": "cizx2i73mdc2v013039jn6bw3",
-      "vision": { "id": "cizx2ezqcar1g01602m49ttx4" },
-      "type": "VISION",
-      "value": 50
-    },
-    {
-      "mission": null,
-      "goal": null,
-      "id": "cizx2i74edc730130iqsugxlx",
-      "vision": { "id": "cizx2ezqrar5i0160qkbz11ej" },
-      "type": "VISION",
-      "value": 50
-    },
-    {
-      "mission": null,
-      "goal": null,
       "id": "cizx2i75cdc7c0130ogvrdo7k",
-      "vision": { "id": "cizx2ezr7ar5k0160iezg83hb" },
+      "vision": {
+        "id": "cizx2ezr7ar5k0160iezg83hb"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 86
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i75zdcbj0130kjtzvhmx",
-      "vision": { "id": "cizx2ezrmar5m0160x2786i64" },
+      "vision": {
+        "id": "cizx2ezrmar5m0160x2786i64"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 33
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i76idcbr01302sev7zin",
-      "vision": { "id": "cizx2ezs1ar5o01607snqnjvx" },
+      "vision": {
+        "id": "cizx2ezs1ar5o01607snqnjvx"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 96
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i775dcbx0130et3bqeq2",
-      "vision": { "id": "cizx2ezsjar5q0160lk5zs4ot" },
+      "vision": {
+        "id": "cizx2ezsjar5q0160lk5zs4ot"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 32
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i77sdcc50130zxofgvug",
-      "vision": { "id": "cizx2ezt4ar5t01601wxgo5t2" },
+      "vision": {
+        "id": "cizx2ezt4ar5t01601wxgo5t2"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 77
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i78odcch0130zzzosa5o",
-      "vision": { "id": "cizx2eztjar8z0160qzqcdihe" },
+      "vision": {
+        "id": "cizx2eztjar8z0160qzqcdihe"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 10
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i79ndcgr0130awwrl7oz",
-      "vision": { "id": "cizx2eztzar910160qgsr4uk9" },
+      "vision": {
+        "id": "cizx2eztzar910160qgsr4uk9"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 21
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i7acdch0013025pbxn42",
-      "vision": { "id": "cizx2ezuear930160bv8yveqb" },
+      "vision": {
+        "id": "cizx2ezuear930160bv8yveqb"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 100
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i7cfdcl90130mg7644a8",
-      "vision": { "id": "cizx2ezusar950160cj5ccd55" },
+      "vision": {
+        "id": "cizx2ezusar950160cj5ccd55"
+      },
       "type": "VISION",
-      "value": 40
+      "value": 7
     },
     {
       "mission": null,
       "goal": null,
       "id": "cizx2i7czdcle0130dtc2gpef",
-      "vision": { "id": "cizx2ezv8ar970160t5g2zhsp" },
+      "vision": {
+        "id": "cizx2ezv8ar970160t5g2zhsp"
+      },
       "type": "VISION",
-      "value": 50
+      "value": 58
     },
     {
       "mission": null,
       "goal": {
         "id": "cj10t9xmydmso0145n3ncnndy",
-        "vision": { "id": "cizx2ezn5ar110160k94gp07k" }
+        "vision": {
+          "id": "cizx2ezn5ar110160k94gp07k"
+        }
       },
       "id": "cj10t9xmvdmsn0145clm6pmg5",
       "vision": null,
@@ -158,7 +196,9 @@
     {
       "mission": {
         "id": "cj10tz1cnb7wv0112stisiqgk",
-        "vision": { "id": "cizx2ezntar130160gyt4loff" }
+        "vision": {
+          "id": "cizx2ezntar130160gyt4loff"
+        }
       },
       "goal": null,
       "id": "cj10tz1cgb7wu0112szwp845o",
@@ -170,7 +210,9 @@
       "mission": null,
       "goal": {
         "id": "cj10vao7mxrlu0112ybvu70ai",
-        "vision": { "id": "cizx2ezt4ar5t01601wxgo5t2" }
+        "vision": {
+          "id": "cizx2ezt4ar5t01601wxgo5t2"
+        }
       },
       "id": "cj10vao7axrlt0112c06o4rc3",
       "vision": null,
@@ -181,7 +223,9 @@
       "mission": null,
       "goal": {
         "id": "cj110z4zpmxrj0145kbqhlnm9",
-        "vision": { "id": "cizx2ezqcar1g01602m49ttx4" }
+        "vision": {
+          "id": "cizx2ezqcar1g01602m49ttx4"
+        }
       },
       "id": "cj110z4zmmxri0145o1hjkxka",
       "vision": null,
@@ -191,7 +235,9 @@
     {
       "mission": {
         "id": "cj111wgi44lpa01455py4kg8o",
-        "vision": { "id": "cizx2ezqrar5i0160qkbz11ej" }
+        "vision": {
+          "id": "cizx2ezqrar5i0160qkbz11ej"
+        }
       },
       "goal": null,
       "id": "cj111wgi04lp90145o84icrab",
@@ -203,7 +249,9 @@
       "mission": null,
       "goal": {
         "id": "cj126dmu81agq0112jk60b3zd",
-        "vision": { "id": "cizx2ezn5ar110160k94gp07k" }
+        "vision": {
+          "id": "cizx2ezn5ar110160k94gp07k"
+        }
       },
       "id": "cj126dmu41agp0112o1z3ywps",
       "vision": null,

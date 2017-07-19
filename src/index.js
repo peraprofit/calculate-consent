@@ -54,19 +54,21 @@ const visionConsent = (priorities: Array<Priority>): ConsentMap => {
 
 const consent = (visionConsent, priorities: Array<Priority>) => {
   const visions = Object.keys(visionConsent);
+
   // for each vision in visionConsent, get consent for amount of vision consent
   let objectConsent = {};
   visions.forEach(visionId => {
     // get the type of this priority
-
     // get the priorities of this type for this vision
     const objects = priorities.filter(p => {
-      p[p.type.toLowerCase()].vision.id === visionId;
+      return p[p.type.toLowerCase()].vision.id === visionId;
     });
+
     //if there are any priorities for this vision
     if (objects.length) {
       //get the total of the priorities
       const total = objects.reduce(sum, 0);
+
       let tally = {};
 
       // calculate the consent for the objects of this vision
@@ -74,21 +76,25 @@ const consent = (visionConsent, priorities: Array<Priority>) => {
         const priorityValue = visionConsent[visionId] * (p.value / total);
         tally[p[p.type.toLowerCase()].id] = priorityValue;
       });
-      objectConsent = Object.assign(objectConsent, tally);
+
+      objectConsent = Object.assign({}, objectConsent, tally);
     }
   });
   return objectConsent;
 };
 
-const calculateConsent = (priorities: Array<Priority>, votes: number = 15) => {
+const calculateConsent = (priorities: Array<Priority>, votes: number = 18) => {
   allocation = votes;
   const visionPriorities = priorities.filter(visionFilter);
   const goalPriorities = priorities.filter(goalFilter);
   const missionPriorities = priorities.filter(missionFilter);
 
   const visions = visionConsent(visionPriorities);
+
   const goals = consent(visions, goalPriorities);
+
   const missions = consent(visions, missionPriorities);
+
   const finalConsent = Object.assign({}, visions, goals, missions);
   return finalConsent;
 };
