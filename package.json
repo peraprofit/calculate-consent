@@ -1,6 +1,6 @@
 {
   "name": "calculate-consent",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "description": "Calculates consent based on a list of priorities",
   "main": "lib/index.js",
   "repository": "https://github.com/peraprofit/calculate-consent.git",

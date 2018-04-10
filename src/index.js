@@ -69,11 +69,24 @@ const consent = (visionConsent, priorities: Array<Priority>) => {
       //get the total of the priorities
       const total = objects.reduce(sum, 0);
 
+      // of the total priority for a vision, 20 percent goes to goals and 80
+      // percent goes to missions
+      const goalFactor = 0.2
+      const missionFactor = 0.8
+
       let tally = {};
+
 
       // calculate the consent for the objects of this vision
       objects.forEach(p => {
-        const priorityValue = visionConsent[visionId] * (p.value / total);
+        let factor =1
+        if (p.type === 'GOAL') {
+          factor = goalFactor
+        }
+        if (p.type === 'MISSION') {
+          factor = missionFactor
+        }
+        const priorityValue = visionConsent[visionId] * factor * (p.value / total);
         tally[p[p.type.toLowerCase()].id] = priorityValue;
       });
 
