@@ -1,6 +1,6 @@
 {
   "name": "calculate-consent",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Calculates consent based on a list of priorities",
   "main": "lib/index.js",
   "repository": "https://github.com/peraprofit/calculate-consent.git",
@@ -22,7 +22,7 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.1.0",
     "jest": "^20.0.4",
-    "prettier": "^1.5.2",
+    "prettier": "^1.12.1",
     "serverless-webpack": "^2.0.0",
     "webpack": "^3.0.0"
   },
